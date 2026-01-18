@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">English Vocab Sakkusaku</string>
+    <string name="app_name">中学教科書英単語サックサク！</string>
     <string name="title_activity_main">English Vocab Sakkusaku</string>
     <string name="package_name">com.sakkusaku.englishvocab</string>
     <string name="custom_url_scheme">com.sakkusaku.englishvocab</string>
