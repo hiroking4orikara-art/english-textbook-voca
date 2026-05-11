@@ -27,9 +27,16 @@
             android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
         </provider>
+
+        <!-- AdMob App ID (Production) -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6979818021800533~7331815510"/>
     </application>
 
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Required for AdMob / Google Play Services -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 </manifest>

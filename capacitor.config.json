@@ -1,5 +1,5 @@
 {
   "appId": "com.sakkusaku.englishvocab",
-  "appName": "中学教科書英単語サックサク！",
-  "webDir": "www"
+  "appName": "中学　英語　教科書　単語　サックサク！",
+  "webDir": "dist"
 }

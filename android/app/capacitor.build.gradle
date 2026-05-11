@@ -9,7 +9,9 @@ android {
 
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
-
+    implementation project(':bcyesil-capacitor-plugin-printer')
+    implementation project(':capacitor-community-admob')
+    implementation project(':capacitor-community-text-to-speech')
 
 }
 
